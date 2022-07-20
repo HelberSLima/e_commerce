@@ -1,0 +1,22 @@
+.produtos__btn--add {
+    background: var(--btn-color);
+    border: none;
+    color: var(--pure-white);
+    padding: 0.75rem 1rem;
+    font-size: .875rem;
+    font-weight: 600;
+    align-self: flex-start;
+    text-align: center;
+}
+
+.produtos__btn--add:hover {
+    cursor: pointer;
+    background-color: var(--btn-hover-prim);
+}
+
+@media screen and (min-width: 1440px) {
+    .produtos__btn--add {
+        padding: 1rem 1.5rem;
+    }
+
+}

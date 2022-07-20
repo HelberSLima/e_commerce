@@ -1,0 +1,20 @@
+.menu__div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__div {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu__div {
+        padding: 1rem 9.5rem;
+    }
+}

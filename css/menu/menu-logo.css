@@ -1,0 +1,11 @@
+.menu__logo {
+    width: 7.25rem;
+    height: 3.125rem;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .menu__logo {
+        width: 11rem;
+    }
+}

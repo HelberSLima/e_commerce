@@ -1,0 +1,30 @@
+@import url(./formContato-form.css);
+@import url(./formContato-img.css);
+@import url(./formContato-nome.css);
+@import url(./formContato-menssagem.css);
+@import url(./formContato-titulo.css);
+@import url(../formContato/formContato-submit.css);
+
+.formContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-form);
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .formContato {
+        flex-direction: row;
+        padding: 1rem 2rem;
+        justify-content: space-between
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .formContato {
+        padding: 4rem 9.5rem;
+        justify-content: space-between;
+    }
+}

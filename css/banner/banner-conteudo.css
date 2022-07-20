@@ -1,0 +1,21 @@
+.banner__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+    padding: 1rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__conteudo {
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__conteudo {
+        padding: 2rem 9.5rem;
+    }
+}

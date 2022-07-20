@@ -1,0 +1,14 @@
+.menu__searchBtn {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 1.065rem;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu__searchBtn {
+        display: none;
+    }
+}

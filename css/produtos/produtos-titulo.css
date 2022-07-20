@@ -1,0 +1,10 @@
+.produtos__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .produtos__titulo {
+        font-size: 2rem;
+    }
+}
